@@ -1,0 +1,204 @@
+/* Basics CSS*/
+
+
+body {
+ margin: 40px 0;
+ color: #333;
+ padding:0;
+ font: 0.86em/1.6 Arial, Helvetica, sans-serif;
+ }
+
+
+h1 {
+	text-shadow: 1px 1px 2px black, 0 0 10px white;
+ font-size: 1.5em;
+}
+
+h2 {
+ font-size: 1.3em;
+}
+
+
+#hdr h1 {
+ color: #fff;
+ background:#406c8e;
+ font-size: 1.5em;
+ font-weight: bold;
+ text-align: center;
+ text-transform: uppercase;
+ margin: 0;
+ padding: 1em;
+ border:solid #000000;	
+ border-width:1px 0 1px 0;
+ }
+
+#nav {
+background-color:#406c8e;
+border:solid #000000;
+ border-width:1px 1px 0px 1px;
+ margin-top:20px;
+ float:left;
+ width:190px;
+ 
+ text-align: center;
+}
+
+
+#nav h2 {
+text-shadow: 1px 1px 2px black ;
+color:white;
+}
+
+#nav form p select{
+	    font-size: medium;
+    font-weight: bold;
+}
+
+#nav form{
+margin: 0;
+}
+
+
+#navButton{
+font-size:medium;
+margin-top: 0.5em;
+color: white;
+width:190px;
+ height: 3em;
+background: #406c8e;
+border:solid #000000;	
+border-width:1px  0 1px 0 ;
+}
+
+#navButton:HOVER{
+		background:#7dadd3;
+}
+
+#navButton:ACTIVE{
+		background:#fcfcfe;
+	color:#7dadd3;
+}
+
+#add{
+width: 550px;
+min-width: 550px;
+margin-top:20px;
+ margin-left:213px;
+
+ padding-top: 1em;
+padding-left: 1em;
+padding-right: 1em;
+background: #406c8e;
+border:solid #000000;	
+border-width:1px 1px 1px 1px ;
+}
+#addPupil{
+height: 40px;
+}
+
+
+
+#addPanel input {
+	width: 40%;
+}
+
+#addPanel button, #addLesson button{
+color: white;
+font-size:medium;
+background: #406c8e;
+border:solid #1a181c;	
+border-width:1px  1px 1px 1px ;
+	width: 18%;
+	float: right;
+}
+
+#addPanel button:HOVER, #addLesson button:HOVER{
+		background:#7dadd3;
+}
+
+#addPanel button:ACTIVE, #addLesson button:ACTIVE{
+		background:#fcfcfe;
+	color:#7dadd3;
+}
+
+#addLesson input{
+	
+width: 40%;
+}
+
+
+
+#table {
+
+ margin-left:200px;
+ padding: 1em;
+ }
+#table h2 {
+ color: rgb(153, 102, 51);
+}
+
+#table table{
+
+ padding: 1em;
+color:white;
+background-color:#3d4652;
+border:solid #000000;	
+border-width:1px 1px 1px 1px ;
+}
+
+#table table tr {
+text-align: center;
+}
+
+#table table Input {
+text-align: center;
+}
+
+#lessonsdate{
+}
+
+#mark{
+font-size: medium;
+font-weight: bolder;
+}
+
+#pupilCell{
+	text-align: left;
+	white-space: nowrap;
+}
+
+#classname{
+	font-size:xx-large;
+text-shadow: 1px 1px 2px black;
+}
+
+#saveButton{
+color: white;
+font-size:large;
+margin-top: 1em;
+ width: 10em;
+ height: 2.5em;
+background: #406c8e;
+border:solid #000000;	
+border-width:1px 1px 1px 1px ;
+}
+
+#saveButton:HOVER {
+	background: #7dadd3;
+}
+
+#saveButton:ACTIVE{
+	background:#fcfcfe;
+	color:#7dadd3;
+}
+
+#ftr {
+ clear: both;
+ color: #fff;
+ background:#B7734B;
+ font-size: 0.8em;
+ text-align: center;
+ border-top: 1px solid #000;
+
+ margin: 1em 0 0 0;
+ }
